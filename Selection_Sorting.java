@@ -1,7 +1,7 @@
 public class Selection_Sorting 
 {
     
-    public static int[] selectSorting(int[] arr)
+    public static void selectSorting(int[] arr)
     {
         for(int i = 0; i < arr.length - 2; i++)
         {
@@ -18,9 +18,7 @@ public class Selection_Sorting
             int temp = arr[min_Index];
             arr[min_Index] = arr[i];
             arr[i] = temp;
-        }
-        
-        return arr;
+        }        
     }
     
     public static void printArray(int[] a)
