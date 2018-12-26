@@ -1,11 +1,11 @@
-package bubble_sorting;
+package bubblesorting;
 
 
 /**
  *
  * @author teva
  */
-public class Bubble_Sorting {
+public class BubbleSorting {
 
     public static void bubbleSorting(int[] arr)
     {
