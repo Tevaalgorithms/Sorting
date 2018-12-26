@@ -1,4 +1,4 @@
-public class Selection_Sorting 
+public class SelectionSorting 
 {
     
     public static void selectSorting(int[] arr)
